@@ -1,0 +1,161 @@
+.main  { 
+  padding: 8px;
+  margin: 5px;
+}
+.input { 
+    background-color: #F7F7F8;
+    width: 100%;
+    padding-left: 40px; /* Отступ слева для иконки */
+height: 40px;
+border: none;
+border-radius: 16px;
+font-family: 'Inter';
+align-items: center;
+display: flex;
+}
+
+.input:focus { 
+   outline: none;
+   
+   
+}
+
+.error { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  gap: 10px;
+}
+
+.sverh { 
+  font-size: 17px;
+  font-weight: 600;
+  color: #050510;
+}
+.fix { 
+  color: #97979B;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.refetch{ 
+  color: #6534FF;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.inputWrapper {
+  margin-top: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input:focus {
+  caret-color: #6534FF; 
+
+}
+
+.header { 
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 6px;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    pointer-events: none; /* Чтобы клик не перехватывался */
+}
+
+.filterIcon {
+    position: absolute;
+    right: 10px;
+cursor: pointer;
+}
+.nav {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    overflow-y: auto;
+}
+
+.tab {
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: normal;
+    color: #666;
+    transition: color 0.2s;
+}
+
+.tab:hover {
+    color: #000;
+}
+
+.active {
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #6534FF;
+    padding-bottom: 5px;
+}
+
+.underline {
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    transition: left 0.2s; /* Плавный переход */
+}
+
+.card {
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  .avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .info {
+    flex-grow: 1;
+  }
+  
+  .name {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .role {
+    font-size: 14px;
+    color: #555; /* Gray color for the role */
+  }
+  
+  .userTag { 
+    color: #97979B;
+    font-size: 14px;
+  }
+  .userTagDiv { 
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .not-found { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh; 
+    width: 100%; 
+  }
